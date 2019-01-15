@@ -34,10 +34,9 @@ sofort im praktischen Alltag einsetzbar.
 * **(p011)** praktisches MutationTesting – Core Java (30min)
 
 * **(p020)** praktischer Einstieg: WebApps auf Basis von Java (Vaadin) (30min)
-* **(p021)** Selenium, Webdriver, PageObject, Docker based Testenvironment (30 min)
-
-* **(p030)** praktisches FullStack – Testing und Tooling – (ohne DB) (60 min)
-* **(p031)** praktisches FullStack – Mutation Testing – (ohne DB) (2h)
+    * Selenium, Webdriver, PageObject, Docker based Testenvironment (30 min)
+    * praktisches FullStack – Testing und Tooling – (ohne DB) (60 min)
+    * praktisches FullStack – Mutation Testing – (ohne DB) (2h)
 
 
 

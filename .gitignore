@@ -1,6 +1,7 @@
 *.iml
 .idea/*
 webdriver/*
+*_data/webdrivers/*
 
 
 
