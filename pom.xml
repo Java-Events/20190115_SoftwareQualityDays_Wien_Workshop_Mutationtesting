@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>org.rapidpm</groupId>
+    <artifactId>rapidpm-dependencies</artifactId>
+    <version>04.00.11-RPM</version>
+  </parent>
+
+  <groupId>org.rapidpm.event.wien201901</groupId>
+  <artifactId>workshop-mutation-testing</artifactId>
+  <version>01.00.00-RPM-SNAPSHOT</version>
+
+
+  <name>Software Quality Days - 2019 - Mutationtesting</name>
+
+  <inceptionYear>2019</inceptionYear>
+
+  <organization>
+    <name>Vaadin</name>
+    <url>http://www.vaadin.com</url>
+  </organization>
+
+  <url>https://github.com/Java-Events/20190115_SoftwareQualityDays_Wien_Workshop_Mutationtesting</url>
+  <description>Start hunting Mutations</description>
+  <scm>
+    <url>https://github.com/Java-Events/20190115_SoftwareQualityDays_Wien_Workshop_Mutationtesting</url>
+    <connection>
+      scm:git:https://github.com/Java-Events/20190115_SoftwareQualityDays_Wien_Workshop_Mutationtesting.git
+    </connection>
+    <developerConnection>
+      scm:git:https://github.com/Java-Events/20190115_SoftwareQualityDays_Wien_Workshop_Mutationtesting.git
+    </developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <name>Sven Ruppert</name>
+      <email>sven.ruppert@gmail.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <name>Daniel Nordhoff-Vergien</name>
+      <email>dve@vergien.net</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/Java-Events/20190115_SoftwareQualityDays_Wien_Workshop_Mutationtesting/issues</url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <modules>
+    <module>parts</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+    <!--Core Libs-->
+    <!--<rapidpm-functional-reactive.version>00.07.04-RPM</rapidpm-functional-reactive.version>-->
+    <!--<rapidpm-testbench-ng.version>00.07.04-RPM</rapidpm-testbench-ng.version>-->
+
+    <!--Vaadin Versions-->
+    <vaadin.version>10.0.9</vaadin.version>
+    <vaadin-testbench-v10.version>6.0.1</vaadin-testbench-v10.version>
+
+
+    <!--Runtime Versions - EE Containers-->
+    <meecrowave.version>1.2.4</meecrowave.version>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>vaadin-addons</id>
+      <url>http://maven.vaadin.com/vaadin-addons</url>
+    </repository>
+    <repository>
+      <id>vaadin-prereleases</id>
+      <url>http://maven.vaadin.com/vaadin-prereleases</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>vaadin-prereleases</id>
+      <url>http://maven.vaadin.com/vaadin-prereleases</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-checkstyle-plugin</artifactId>
+      <configuration>
+        <skip>true</skip>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
+
+
+</project>
