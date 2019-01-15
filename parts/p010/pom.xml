@@ -12,17 +12,34 @@
   <artifactId>workshop-mutation-testing-parts-p010</artifactId>
   <packaging>jar</packaging>
 
-  <properties>
-  </properties>
-
-  <dependencyManagement>
-    <dependencies>
-
-    </dependencies>
-  </dependencyManagement>
-
-  <dependencies>
-
-  </dependencies>
-
+  <build>
+    <plugins>
+      <!--Enable mutation testing-->
+      <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+        <dependencies>
+          <dependency>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-junit5-plugin</artifactId>
+            <version>${pitest-junit5-plugin.version}</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <threads>2</threads>
+          <outputFormats>
+            <outputFormat>XML</outputFormat>
+            <outputFormat>HTML</outputFormat>
+          </outputFormats>
+          <targetClasses>
+            <param>${pitest-prod-classes}</param>
+            <!--<param>org.reflections.*</param>-->
+          </targetClasses>
+          <targetTests>
+            <param>${pitest-test-classes}</param>
+          </targetTests>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
