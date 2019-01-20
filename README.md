@@ -44,4 +44,4 @@ Anbei zwei Links zu dem Thema Mutation Testing.
 [Mutation Testing deutsch - JUG KA](https://youtu.be/aL17m78f4ys) 
 
 ## Folien
-Die Folien findet ihr unter SlideShare: 
+Die Folien findet ihr im Hpt Verzeichnis als pdf.
