@@ -21,42 +21,27 @@ sofort im praktischen Alltag einsetzbar.
 
 
 ## Timeline (in german)
-* Vorstellung (15min)
-* **(p001)** Theorie jUnit5 (15min)
-* **(p002)** praktisches Junit5 Testing, Core Java (30min)
-* **(p003)** concurrent Junit5 Testing, Core Java (30min)
-* **(p004)** dynamic/non-static Junit5 Testing, Core Java (30min)
+* Vorstellung 
+* **(p001)** Theorie jUnit5 
+* **(p002)** praktisches Junit5 Testing, Core Java 
+* **(p003)** concurrent Junit5 Testing, Core Java 
+* **(p004)** dynamic/non-static Junit5 Testing, Core Java 
         * TestTemplate
         * Dynamic Tests
         * ParameterizedTests
 
-* **(p010)** Theorie Mutation Testing (30min)
-* **(p011)** praktisches MutationTesting – Core Java (30min)
+* **(p010)** Theorie Mutation Testing 
+* **(p011)** praktisches MutationTesting – Core Java 
 
-* **(p020)** praktischer Einstieg: WebApps auf Basis von Java (Vaadin) (30min)
-    * Selenium, Webdriver, PageObject, Docker based Testenvironment (30 min)
-    * praktisches FullStack – Testing und Tooling – (ohne DB) (60 min)
-    * praktisches FullStack – Mutation Testing – (ohne DB) (2h)
+* **(p020)** praktischer Einstieg: WebApps auf Basis von Java (Vaadin) 
+    * Selenium, Webdriver, PageObject, Docker based Testenvironment 
+    * praktisches FullStack – Testing und Tooling – (ohne DB) 
+    * praktisches FullStack – Mutation Testing – (ohne DB) 
 
+##  Weiterführende Infos
+Anbei zwei Links zu dem Thema Mutation Testing.
+[Mutation Testing engl - JFokus](https://youtu.be/9yG1c9Crnbk) 
+[Mutation Testing deutsch - JUG KA](https://youtu.be/aL17m78f4ys) 
 
-
-## jUnit5
-
-### P001 - Theorie jUnit5 (15min)
-### P002 - praktisches Junit Testing, Core Java (30min)
-
-
-## Mutation Testing
-### P010 - Theorie Mutation Testing (30min)
-* slides
-### P011 - praktisches MutationTesting – Core Java (30min)
-* Core Java Demos
-* 
-
-## WebApps and TDD
-### P020 - praktischer Einstieg: WebApps auf Basis von Java (Vaadin) (30min)
-### P021 - Selenium, Webdriver, PageObject, Docker based Testenvironment (30 min)
-
-## Fullstack - TDD
-### P030 - praktisches FullStack – Testing und Tooling – (ohne DB) (60 min)
-### P031 - praktisches FullStack – Mutation Testing – (ohne DB) (2h)
+## Folien
+Die Folien findet ihr unter SlideShare: 
